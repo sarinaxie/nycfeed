@@ -1,13 +1,13 @@
 # nycfeed
-1 - start db
+1) start db
 
 sudo service mongodb start in nycfeed folder
 
-2 - start api server
+2) start api server
 
 npm start in api folder
 
-3 - start ui server
+3) start ui server
 
 npm start in ui folder
 
