@@ -13,10 +13,6 @@ npm start in ui folder
 
 includes react, graphql, nodejs
 
-installing mongodb on wsl
+installing mongodb on wsl: https://docs.microsoft.com/en-us/windows/python/databases
 
-https://docs.microsoft.com/en-us/windows/python/databases
-
-react graphql node/express walkthrough
-
-https://blog.bitsrc.io/how-to-build-a-note-taking-app-with-graphql-and-react-part-1-of-2-febf1aeda091s
+react graphql node/express walkthrough: https://blog.bitsrc.io/how-to-build-a-note-taking-app-with-graphql-and-react-part-1-of-2-febf1aeda091s
