@@ -1,0 +1,36 @@
+.card {
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
+  }
+.card button {
+    border: none;
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+.card button:hover {
+    color: #363636;
+}
+
+.card-placeholder {
+    background-color: white;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    padding: 20px;
+}
+
+.card-header-placeholder {
+
+}
+
+.card-header-title-placeholder {
+    color: red;
+}
+
+.card-content-placeholder {
+
+}
+
+.content-placeholder {
+    color: blue;
+}

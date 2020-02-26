@@ -1,0 +1,51 @@
+.App-header {
+  background-color: #222;
+  color: gray;
+}
+
+.navbar-item {
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.newnote-page {
+  height: calc(100vh - 52px);
+  width: 60%;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 2.75rem;
+}
+
+
+.mobile-logo {
+  display:none;
+}
+
+/* need to test/change max width */
+@media only screen and (max-width: 500px) {
+    .mobile-logo {
+      display: inline-block;
+    }
+    .desktop-logo {
+      display: none;
+    }
+}
