@@ -11,13 +11,17 @@ const ArticleSchema = new Schema({
     required: true
   },
   date: {
-    type: Date,
-    default: Date.now
+    type: String,
+    required: true
   },
   site: {
     type: String,
     required: true,
     index: true
+  },
+  url: {
+    type: String,
+    required: true
   }
 });
 const Article = mongoose.model("article", ArticleSchema);
