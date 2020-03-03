@@ -11,10 +11,11 @@ function App() {
     <Router>
       <div>
         <nav className="level desktop-logo">
-          <div className="level-left">
-            <div className="level-item">nycfeed 📖</div>
-          </div>
+            <div className="level-item has-text-centered">
+              <span id="nyc">NYCfeed</span> 📖
+            </div>
         </nav>
+
         <nav
           className="navbar App-header"
           role="navigation"
@@ -22,7 +23,7 @@ function App() {
         >
           
           <div className="navbar-brand">
-          <a className="navbar-item mobile-logo">nycfeed 📖 logo</a>
+          <a className="navbar-item mobile-logo">nycfeed 📖</a>
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -33,10 +34,10 @@ function App() {
           <div className="navbar-menu">
             <div className="navbar-start">
               <Link to="/" className="navbar-item">
-                All Notes (DEP)
+                DEP (Environmental Protection)
               </Link>
               <Link to="/newnote" className="navbar-item">
-                New Note (DDC)
+                DDC (Design and Construction)
               </Link>
             </div>
             <div className="navbar-end"></div>

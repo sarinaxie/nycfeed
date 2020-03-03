@@ -11,9 +11,8 @@ const ARTICLES_QUERY = gql`
   getSiteArticles(site: "dep") {
     title
     content
-    _id
     date
-    site
+    url
   }
  }
  `;
@@ -69,11 +68,15 @@ const AllNotes = () => {
       <div className="allarticles">
         {data.getSiteArticles.map(article => (
           <div className="columnidk" key={article._id}>
-            <p>{article.title}</p>
-            <p>{article.content}</p>
-            
-            <p>{article.date}</p>
-            <p>{article.site}</p>
+            <div className="card">
+              <a href={article.url} target="_blank">
+              <div className="card-date">{article.date}</div>
+                <div className="card-title">{article.title}</div>          
+              <div className="card-cont">
+                  {article.content}
+              </div>
+              </a>
+            </div>
           </div>
         ))}
       </div>

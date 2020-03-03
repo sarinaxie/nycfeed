@@ -35,13 +35,27 @@
   margin-bottom: 2.75rem;
 }
 
+.desktop-logo {
+  padding-top: 1em;
+  padding-bottom:.1em;
+}
+#nyc {
+  color: #282828;
+  font-size: xx-large;
+  font-family: "Impact", Charcoal, sans-serif;
+  padding-right: .2em;
+
+}
 
 .mobile-logo {
   display:none;
 }
-
+.navbar-start {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-left: 1em;
+}
 /* need to test/change max width */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
     .mobile-logo {
       display: inline-block;
     }

@@ -1,5 +1,9 @@
 .card {
-    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.05);
+    padding: .8em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
   }
 .card button {
     border: none;
@@ -12,25 +16,23 @@
     color: #363636;
 }
 
-.card-placeholder {
-    background-color: white;
-    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
-    width: 800px;
-    padding: 20px;
-}
 
 .card-header-placeholder {
 
 }
-
-.card-header-title-placeholder {
-    color: red;
+.card-date {
+    font-size: .95em;
+    color: #505050;
+}
+.card-title {
+    color: #282828;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: 700;
+    padding-top: .2em;
 }
 
-.card-content-placeholder {
+.card-cont {
 
-}
-
-.content-placeholder {
-    color: blue;
+    color: #505050;
 }

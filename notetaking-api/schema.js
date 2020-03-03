@@ -12,9 +12,10 @@ const typeDefs = `
  type Article {
   _id: ID!
   title: String!,
-  date: Date,
+  date: String!,
   content: String!,
-  site: String!
+  site: String!,
+  url: String!
  }
 
  scalar Date
