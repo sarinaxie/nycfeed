@@ -2,7 +2,9 @@
   background-color: #222;
   color: gray;
 }
-
+.navbar-menu {
+  background-color: #222;
+}
 .navbar-item {
   color: white;
 }
@@ -46,6 +48,16 @@
   padding-right: .2em;
 
 }
+
+
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked ~ .navbar-menu {
+  display: block;
+}
+
 
 .mobile-logo {
   display:none;

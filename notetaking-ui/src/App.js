@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import AllNotes from "./AllNotes";
-import NewNote from "./NewNote";
-import EditNote from "./EditNote";
+import DEPArticles from "./DEPArticles";
+import DDCArticles from "./DDCArticles";
 import "./App.css";
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       <div>
         <nav className="level desktop-logo">
             <div className="level-item has-text-centered">
-              <span id="nyc">NYCfeed</span> 📖
+              <span id="nyc">NYCfeed  📰</span> 
             </div>
         </nav>
 
@@ -23,20 +22,21 @@ function App() {
         >
           
           <div className="navbar-brand">
-          <a className="navbar-item mobile-logo">nycfeed 📖</a>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <a className="navbar-item mobile-logo">nycfeed 📰 </a>
+          <label role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" htmlFor="nav-toggle-state">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-          </a>
+          </label>
           </div>
+          <input type="checkbox" id="nav-toggle-state"/>
           
           <div className="navbar-menu">
             <div className="navbar-start">
               <Link to="/" className="navbar-item">
                 DEP (Environmental Protection)
               </Link>
-              <Link to="/newnote" className="navbar-item">
+              <Link to="/DDCArticles" className="navbar-item">
                 DDC (Design and Construction)
               </Link>
             </div>
@@ -45,9 +45,8 @@ function App() {
           
         </nav>
 
-        <Route exact path="/" component={AllNotes} />
-        <Route path="/newnote" component={NewNote} />
-        <Route path="/note/:id" component={EditNote} />
+        <Route exact path="/" component={DEPArticles} />
+        <Route path="/DDCArticles" component={DDCArticles} />
       </div>
     </Router>
   );
